@@ -170,6 +170,7 @@
             position: relative;
             overflow: hidden;
             background-color: white;
+            width: 100%;
         }
 
         .product-card:hover {
@@ -418,7 +419,7 @@
         .category-btn {
             padding: var(--spacing-sm) var(--spacing-md);
             border: 1px solid var(--border-color);
-            border-radius: 40px;
+            border-radius: 10px;
             cursor: pointer;
             transition: all 0.2s;
             padding: 3px 6px;
@@ -459,7 +460,7 @@
         .auth-form {
             max-width: 400px;
             margin: 2rem auto;
-            padding: 2rem;
+            padding: 1rem;
             background: white;
             border-radius: 8px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -474,18 +475,18 @@
         }
 
         .auth-form h2 {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.2rem;
             text-align: center;
             color: var(--primary-color);
         }
 
         .auth-form .form-group {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         .auth-form label {
             display: block;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.2rem;
             font-weight: 500;
             color: var(--secondary-color);
         }
@@ -493,7 +494,7 @@
         .auth-form input,
         .auth-form select {
             width: 100%;
-            padding: 0.75rem;
+            padding: 0.35rem;
             border: 1px solid var(--border-color);
             border-radius: 4px;
             font-size: var(--font-size-md);
@@ -892,12 +893,47 @@
             <div class="form-group">
                 <label for="area">Area in Accra</label>
                 <select id="area" required>
-                    <option value="">Select an area</option>
                     <option value="Adabraka">Adabraka</option>
-                    <option value="Cantonments">Cantonments</option>
-                    <option value="East Legon">East Legon</option>
-                    <option value="Labadi">Labadi</option>
-                    <option value="Osu">Osu</option>
+<option value="Cantonments">Cantonments</option>
+<option value="East Legon">East Legon</option>
+<option value="Labadi">Labadi</option>
+<option value="Osu">Osu</option>
+<option value="Kokomlemle">Kokomlemle</option>
+<option value="Teshie">Teshie</option>
+<option value="Spintex">Spintex</option>
+<option value="Madina">Madina</option>
+<option value="Dzorwulu">Dzorwulu</option>
+<option value="Nungua">Nungua</option>
+<option value="West Legon">West Legon</option>
+<option value="Kwabenya">Kwabenya</option>
+<option value="Bubuashie">Bubuashie</option>
+<option value="Labone">Labone</option>
+<option value="Accra Central">Accra Central</option>
+<option value="Kanda">Kanda</option>
+<option value="Sakumono">Sakumono</option>
+<option value="Mile 7">Mile 7</option>
+<option value="Achimota">Achimota</option>
+<option value="Pokuase">Pokuase</option>
+<option value="Osu-Accra">Osu-Accra</option>
+<option value="Nima">Nima</option>
+<option value="Tema Community 25">Tema Community 25</option>
+<option value="Bortianor">Bortianor</option>
+<option value="Amasaman">Amasaman</option>
+<option value="Polo Park">Polo Park</option>
+<option value="Chorkor">Chorkor</option>
+<option value="Abokobi">Abokobi</option>
+<option value="Ashaley Botwe">Ashaley Botwe</option>
+<option value="Fadama">Fadama</option>
+<option value="Haatso">Haatso</option>
+<option value="Dome">Dome</option>
+<option value="Tema Newtown">Tema Newtown</option>
+<option value="Shai Hills">Shai Hills</option>
+<option value="Tudu">Tudu</option>
+<option value="Legon">Legon</option>
+<option value="Ring Road Central">Ring Road Central</option>
+<option value="Bubuashie">Bubuashie</option>
+<option value="Abelempke">Abelempke</option>
+
                     <!-- Add more areas as needed -->
                 </select>
             </div>
@@ -954,10 +990,46 @@
                 <select id="signup-area" required>
                     <option value="">Select an area</option>
                     <option value="Adabraka">Adabraka</option>
-                    <option value="Cantonments">Cantonments</option>
-                    <option value="East Legon">East Legon</option>
-                    <option value="Labadi">Labadi</option>
-                    <option value="Osu">Osu</option>
+<option value="Cantonments">Cantonments</option>
+<option value="East Legon">East Legon</option>
+<option value="Labadi">Labadi</option>
+<option value="Osu">Osu</option>
+<option value="Kokomlemle">Kokomlemle</option>
+<option value="Teshie">Teshie</option>
+<option value="Spintex">Spintex</option>
+<option value="Madina">Madina</option>
+<option value="Dzorwulu">Dzorwulu</option>
+<option value="Nungua">Nungua</option>
+<option value="West Legon">West Legon</option>
+<option value="Kwabenya">Kwabenya</option>
+<option value="Bubuashie">Bubuashie</option>
+<option value="Labone">Labone</option>
+<option value="Accra Central">Accra Central</option>
+<option value="Kanda">Kanda</option>
+<option value="Sakumono">Sakumono</option>
+<option value="Mile 7">Mile 7</option>
+<option value="Achimota">Achimota</option>
+<option value="Pokuase">Pokuase</option>
+<option value="Osu-Accra">Osu-Accra</option>
+<option value="Nima">Nima</option>
+<option value="Tema Community 25">Tema Community 25</option>
+<option value="Bortianor">Bortianor</option>
+<option value="Amasaman">Amasaman</option>
+<option value="Polo Park">Polo Park</option>
+<option value="Chorkor">Chorkor</option>
+<option value="Abokobi">Abokobi</option>
+<option value="Ashaley Botwe">Ashaley Botwe</option>
+<option value="Fadama">Fadama</option>
+<option value="Haatso">Haatso</option>
+<option value="Dome">Dome</option>
+<option value="Tema Newtown">Tema Newtown</option>
+<option value="Shai Hills">Shai Hills</option>
+<option value="Tudu">Tudu</option>
+<option value="Legon">Legon</option>
+<option value="Ring Road Central">Ring Road Central</option>
+<option value="Bubuashie">Bubuashie</option>
+<option value="Abelempke">Abelempke</option>
+
                     <!-- Add more areas as needed -->
                 </select>
             </div>
@@ -1064,19 +1136,20 @@
         <div class="footer-grid">
             <div class="footer-links">
                 <h3><i class="fa-solid fa-shop"></i> SHOP 31776</h3>
-                <p>Fresh products from local producers, delivered directly to your front door, daily.</p>
+                <p>Pre-order the best international products and have them shipped to you!</p>
             </div>
             <div class="footer-links">
                 <h3>Popular categories</h3>
-                <a href="#"><i class="fas fa-bread-slice"></i> Bread & Bakery</a>
-                <a href="#"><i class="fas fa-egg"></i> Dairy & Eggs</a>
-                <a href="#"><i class="fas fa-pizza-slice"></i> Fresh Meals & Pizzas</a>
-                <a href="#"><i class="fas fa-carrot"></i> Fruits & Vegetables</a>
-                <a href="#"><i class="fas fa-blender"></i> Kitchen Appliances</a>
+                <a href="#"> -Electronics</a>
+                <a href="#"> -Fashion</a>
+                <a href="#"> -Beauty & Skincare</a>
+                <a href="#"> -Accessories</a>
+                <a href="#"> -Health & Wellness</a>
+                <a href="#"> -More...</a>
             </div>
             <div class="footer-links">
                 <h3>Main Store</h3>
-                <p><i class="fas fa-map-marker-alt"></i> 13 Champs-Élysées<br>75008 Paris<br>France</p>
+                <p><i class="fas fa-map-marker-alt"></i> Ghana,<br>Accra,<br>Amasaman.</p>
             </div>
             <div class="footer-links">
                 <h3>Quick links</h3>
